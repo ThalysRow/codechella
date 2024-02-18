@@ -15,7 +15,7 @@
   position: absolute;
   width: 2.625rem;
   height: 2.625rem;
-  background-image: url("../images/teste.svg");
+  background-image: url("../images/menu-hamburguer.svg");
   background-repeat: no-repeat;
 }
 
@@ -26,6 +26,7 @@
   background-color: var(--cor-header);
   right: 0rem;
   border-radius: 0.25rem;
+  z-index: 1;
 }
 
 .lista-menu-item {
