@@ -19,6 +19,10 @@ main {
   margin-bottom: 2rem;
 }
 
+#imagem-geral-mapa {
+  margin-top: 2rem;
+}
+
 .foto-banner {
   width: 100vw;
 }
@@ -141,4 +145,36 @@ main {
   width: 100vw;
   filter: brightness(100%) saturate(150%) hue-rotate(270deg) contrast(90%)
     brightness(105%) opacity(0.8);
+}
+
+.container-legenda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.legenda-mapa h3 {
+  font-family: var(--font-corpo);
+  color: var(--cor-texto);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.legenda-mapa {
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+.legenda {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.legenda p {
+  font-family: var(--font-corpo);
+  font-size: 1.25rem;
+  color: var(--cor-texto);
 }
