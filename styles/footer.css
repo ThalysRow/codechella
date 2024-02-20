@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-footer);
+}
+
+.logo-footer {
+  margin-top: 1.5rem;
+}
+
+.text-footer {
+  margin: 0.5rem;
+  font-family: var(--font-corpo);
+  font-size: 1.25rem;
+  font-weight: medium;
+  color: var(--cor-texto);
+}
