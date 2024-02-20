@@ -1,10 +1,14 @@
+.logo {
+  margin: auto 0rem;
+  margin-left: 1.5rem;
+}
+
 .header {
   height: 8rem;
   width: 100vw;
   background-color: var(--cor-header);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  column-gap: 2.875rem;
 }
 
 .container-menu {
@@ -12,11 +16,19 @@
 }
 
 .menu-hamburger {
-  position: absolute;
+  display: block;
   width: 2.625rem;
   height: 2.625rem;
   background-image: url("../images/menu-hamburguer.svg");
   background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.navegacao {
+  width: 2.625rem;
+  height: 2.625rem;
+  margin: auto 0rem;
+  margin-left: 1.5rem;
 }
 
 .lista-menu {
